@@ -13,7 +13,7 @@ public class MembrosEstaticos {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Entre com a circunferência: ");
+		System.out.print("Entre com o Raio");
 		double radius = sc.nextDouble();
 		
 		double c = Calculator.circunferencia(radius);
@@ -22,8 +22,7 @@ public class MembrosEstaticos {
 		
 		System.out.printf("Circunferência: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("Valor do PI: %.2f%n",Calculator.PI);
-		
+		System.out.printf("Valor do PI: %.2f%n", Calculator.PI);
 		
 		sc.close();
 
